@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="4"
+    tools:context="com.example.appspavi.gym.DietChart" >
+
+
+    <TableRow>
+
+        <TextView
+
+           android:text="Days"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="45dp"
+            />
+
+        <TextView
+
+            android:text="BreakFast"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+
+            android:text="Lunch"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+
+            />
+        <TextView
+
+            android:text="Dinner"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:text="Sunday"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="17dp"
+            />
+
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="40dp"
+            />
+
+        <TextView
+
+            android:text="Fruits"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+
+            android:text="Monday"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="9dp"
+            />
+
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="40dp"
+            />
+
+        <TextView
+
+            android:text="Fruits"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+
+            android:text="TuesDay"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="3dp"
+            />
+
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="40dp"
+            />
+
+        <TextView
+
+            android:text="Fruits"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+
+            android:text="Wed day"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="4dp"
+            />
+
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="40dp"
+            />
+
+        <TextView
+
+            android:text="Fruits"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+
+            android:text="Thusday"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            />
+
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="40dp"
+            />
+
+        <TextView
+
+            android:text="Fruits"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+
+            android:text="Friday"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="30dp"
+
+            />
+
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="40dp"
+            />
+
+        <TextView
+
+            android:text="Fruits"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+
+            android:text="Saturday"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="40dp"
+            />
+
+        <TextView
+
+            android:text="Fruits"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+
+            android:text="Dhosa"
+            android:textSize="25dp"
+            android:background="@drawable/cell_shape"
+            android:textColor="@android:color/white"
+            android:layout_gravity="left"
+            />
+
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">gym</string>
+    <string-array name="gym_type">
+        <item>Weight Gain</item>
+        <item>Weight Loss</item>
+    </string-array>
+    <string name="title_activity_spinner_item">spinner_item</string>
+
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.appspavi.gym.view_attn">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Attendence"
+            android:textColor="#00bfff"
+            android:paddingTop="2dp"
+            android:textSize="25dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In Time"
+            android:textSize="25dp"
+            android:textColor="#040a5c"
+            android:layout_marginLeft="10dp"/>
+        <android.support.v7.widget.CardView
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="12dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_marginLeft="12dp"
+            card_view:cardBackgroundColor="#00bfff"
+            android:alpha="0.7">
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="#00bfff"
+                android:padding="8dp">
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/in"
+                    android:background="@android:color/transparent"
+                    android:lines="1"
+                    android:textColor="#fff"
+                    android:hint="In Time"
+                    android:textColorHint="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="normal"/>
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Out Time"
+            android:textSize="25dp"
+            android:textColor="#040a5c"
+            android:layout_marginLeft="10dp"/>
+        <android.support.v7.widget.CardView
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="12dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_marginLeft="12dp"
+            card_view:cardBackgroundColor="#00bfff"
+            android:alpha="0.7">
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="#00bfff"
+                android:padding="8dp">
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/out"
+                    android:background="@android:color/transparent"
+                    android:lines="1"
+                    android:paddingTop="4dp"
+                    android:textColor="#fff"
+                    android:hint="Out Time"
+                    android:textColorHint="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="normal"/>
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="25dp"
+            android:textColor="#040a5c"
+            android:layout_marginLeft="10dp"/>
+        <android.support.v7.widget.CardView
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="12dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_marginLeft="12dp"
+            card_view:cardBackgroundColor="#00bfff"
+            android:alpha="0.7">
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="#00bfff"
+                android:padding="8dp">
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/date"
+                    android:background="@android:color/transparent"
+                    android:lines="1"
+                    android:paddingTop="4dp"
+                    android:textColor="#fff"
+                    android:hint="Date"
+                    android:clickable="true"
+                    android:editable="false"
+                    android:textColorHint="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="normal"/>
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button1"
+    android:alpha="0.7"
+    android:id="@+id/update"
+    android:text=" Update "
+    android:layout_marginTop="20dp"
+    android:textColor="#00bfff"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <ProgressBar
+            android:id="@+id/simpleProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="140dp" />
+    </RelativeLayout>
+</RelativeLayout>
